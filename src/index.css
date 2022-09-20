@@ -140,9 +140,9 @@
     }
 
     .bottom-bar {
-        @apply flex flex-row items-center justify-between
-        fixed right-8 bottom-2 left-80
-        rounded-lg shadow-lg w-80
+        @apply flex flex-row items-center justify-between w-full px-20
+        right-8 bottom-2 left-80
+        rounded-lg shadow-lg
         bg-gray-400 dark:bg-gray-600 px-2
         h-12;
     }
