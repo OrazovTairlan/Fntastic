@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import SideBar from "./components/Sidebar/Sidebar";
+import SideBar, {SideBarRight} from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
 import ChannelBar from "./components/Content/Content";
 import Messages from "./components/Messages/Messages";
@@ -11,6 +11,7 @@ function App() {
           <SideBar/>
           <ChannelBar/>
           <Messages/>
+          <SideBarRight/>
       </div>
   );
 }
